@@ -28,6 +28,7 @@ h3 {
     font-size: 37px;
     padding-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .stars {
@@ -50,8 +51,8 @@ h3 {
 #star__count {
     width: 300px;
     height: 115px;
-    border-left: 1px solid #999999;
-    border-right: 1px solid #999999;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
 }
 
 .gray {
@@ -62,7 +63,7 @@ h3 {
 .row__five, .row__four, .row__three, .row__two, .row__one {
     width: 278px;
     height: 20px;
-    margin-bottom: 3px;
+    padding-bottom: 3px;
     display: flex;
     cursor: pointer;
 }
@@ -78,6 +79,14 @@ h3 {
     height: 15px;
     background-color: #F0F0F0;
     margin: 3px 0px 15px 10px;
+    z-index: -1;
+}
+
+.summary-rating {
+    position: relative;
+    width: 0px;
+    height: 15px;
+    background-color: #ffab41;
 }
 
 .summary-rating-count {
